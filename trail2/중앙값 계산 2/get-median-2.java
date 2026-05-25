@@ -11,10 +11,10 @@ public class Main {
             arr[i] = sc.nextInt();
         }
         for (int i = 0; i < n; i++) {
-            int[] num = new int[i+1];
             if (i % 2 == 1) {
                 continue;
             }
+            int[] num = new int[i+1];
             for (int j = 0; j <= i; j++) {
                 num[j] = arr[j];
             }
